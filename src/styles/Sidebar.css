@@ -1,0 +1,45 @@
+.Button {
+    margin: auto;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0;
+    right:0;
+    font-weight: bolder;
+    background-color: #E5BACE;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 0px;
+    box-shadow: 0px 0px #dedede;
+  }
+  
+  .Button:hover {
+    background-color: rgb(11, 212, 162);
+  }
+  
+  .Sidebar {
+    background-color: white;
+    position:absolute;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    min-width: 139px;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 0;
+  }
+  
+  .Items {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: auto;
+  }
+  
+  li {
+    margin: 10px;
+    cursor: pointer;
+  }
